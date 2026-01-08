@@ -1,0 +1,67 @@
+/* src/components/ParkingForm.css */
+.parking-form-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #47c9cd;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+.parking-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-field {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+.submit-button {
+  padding: 12px;
+  background-color: #4CAF50;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+}
+
+.parking-info {
+  margin-top: 20px;
+  background-color: #f0f0f0;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+.parking-info pre {
+  background-color: #e0e0e0;
+  padding: 15px;
+  border-radius: 6px;
+  white-space: pre-wrap;
+}
